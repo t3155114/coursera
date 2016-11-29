@@ -19,9 +19,9 @@ for (i=0; i<names.length; i++) {
  var firstLetter = names[i].charAt(0);
 
   if (firstLetter.toLowerCase()=='j' ) {
-       byeSpeaker.speak(names[i]);
+       byeSpeaker.speak();
   } else {
-    helloSpeaker.speak(names[i]);
+    helloSpeaker.speak();
   }
 }
 
