@@ -1,4 +1,5 @@
 
+
 /*
 Hello Yaakov
 Good Bye John
@@ -11,18 +12,18 @@ Hello Paula
 Hello Laura
 Good Bye Jim */
 
-(function (name) {
+(function (s) {
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
 for (i=0; i<names.length; i++) {
-
+//console.log ( );
  var firstLetter = names[i].charAt(0);
 
   if (firstLetter.toLowerCase()=='j' ) {
-       byeSpeaker.speak();
+       byeSpeaker.speak(names[i]);
   } else {
-    helloSpeaker.speak();
+    helloSpeaker.speak(names[i]);
   }
 }
 
-})(name);
+})();
