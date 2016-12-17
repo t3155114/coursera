@@ -1,4 +1,5 @@
 
+
 /*
 Hello Yaakov
 Good Bye John
@@ -25,4 +26,8 @@ for (i=0; i<names.length; i++) {
   }
 }
 
+<<<<<<< HEAD
 })();
+=======
+})();
+>>>>>>> 82c885d10435a7dfe561bcb49623e596983a7551
